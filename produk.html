@@ -1,0 +1,379 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toko Online Sederhana</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body style="background-color: #caddd2;">
+    
+<!-- navigasi -->
+<nav class="navbar navbar-expand-lg navbar-dark shadow-lg fixed-top" style="background-color:#102f16">
+  <div class="container">
+  <a class="navbar-brand" href="#">Kedai Sayur</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse text-right" id="navbarText">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="produk.html">Product</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="order.html">Order</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+ <!-- banner -->
+    <div class="px-4 mb-4">
+      <img src="images/Banner FIX.png" class="w-100 rounded-3" />
+    </div>
+<body style="background-color: azure;">
+<div class="container border mb-5 mt-5 rounded-3 shadow" style="background-color: aliceblue;">
+
+<!-- catalogue -->
+<h3 class="text-center mt-3" id="collections">Our Collections</h3>
+<div class="row row-cols-md-3 row-cols-2 gx-5 p-5">
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/brokoli 1.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Brokoli Import</p>
+      </div>
+      <div class="d-none deskripsi">
+      <p><b>Deskripsi</b></p>
+      <p>Brokoli Import memiliki ukuran yang lebih besar dibandingkan brokoli biasa. Cocok diolah untuk capcay, steak, dan berbagai hidangan lainnya. Produk ini dapat digunakan sebagai menu MPASI </p>
+<p><b>Berat</b></p>
+<p>300 - 450 gram (1 pcs)</p>
+      </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp.28.900,00</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/paprika 1.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Paprika</p>
+      </div>
+      <div class="d-none deskripsi">
+      <p><b>Deskripsi</b></p>
+      <p>Paprika memiliki rasa manis agak pedas. Bagian kulit buahnya juga lebih tebal. Cocok untuk topping pizza, sandwich, tumis daging, omelet, capcay, dan kreasi masakan lainnya sesuai selera. Terdapat potensi kelebihan/kekurangan gramasi +-10% per pack</p>
+      <p><b>Berat</b></p>
+      <p>100 - 150 gram (1 pcs)</p>
+      </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 17.900,00</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/kubis.png" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Kol Putih</p>
+      </div>
+      <div class="d-none deskripsi">
+        <p><b>Deskripsi</b></p>
+        <p>Kol memiliki tekstur yang renyah saat mentah dan lembut setelah dimasak. Rasanya ringan. Cocok sebagai lalapan dan dinikmati bersama sambal. ikan atau ayam goreng. Dapat digoreng, dimasak tumis, diolah sebagai siomay, campuran nasi goreng, mie, bakso, dan lain sebagainya. Terdapat potensi kelebihan/kekurangan gramasi +-10% per pack</p>
+        <p><b>Kandungan dan Nutrisi</b></p>
+        <p>Membantu pembentukan sel darah merah, dapat mencegah kanker, mengontrol tekanan darah tinggi, sebagai detoksifikasi tubuh dan lain-lain.</p>
+        <p><b>Berat</b></p>
+        <p>850-1100 gram (1 pcs)</p>
+      </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 34.900,00</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/terong.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Terong Ungu</p>
+      </div>
+      <div class="d-none deskripsi">
+        <p><b>Deskripsi</b></p>
+        <p>Terong memiliki daging yang tebal dan lunak. Dapat diolah menjadi terong goreng tepung, terong balado, dan lain-lain. Terdapat potensi kelebihan/kekurangan gramasi +-10% per pack</p>
+        <p><b>Kandungan dan Nutrisi</b></p>
+        <p>Terong ungu memiliki kandungan serat, kalium, vitamin c dan B6, fitonutrien, dan polifenol. Sehingga dapat membantu menjaga kesehatan jantung, mengontrol gula darah, dan memiliki efek anti kanker.</p>
+        <p><b>Berat</b></p>
+        <p>500 gram (4-6 pcs)</p>
+        </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 7.500,00</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/wes.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Bawang daun</p>
+      </div>
+      <div class="d-none deskripsi">
+        <p><b>Deskripsi</b></p>
+        <p>Daun bawang memiliki aroma dan rasa yang khas. Sehingga sering digunakan sebagai pelengkap makanan atau penambah cita rasa. Terdapat potensi kelebihan/kekurangan gramasi +-10% per pack Produk ini dapat digunakan sebagai menu MPASI</p>
+        <p><b>Berat</b></p>
+        <p>100 gram (1 pcs)</p>
+        </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 3.300,00</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/timun.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Timun</p>
+      </div>
+      <div class="d-none deskripsi">
+        <p><b>Deskripsi</b></p>
+        <p>Timun memiliki tekstur yang renyah dan segar saat dimakan. Dapat dikonsumsi langsung sebagai lalapan, sayur, ataupun diolah menjadi es timun segar. Terdapat potensi kelebihan/kekurangan gramasi +-10% per pack</p>
+        <p><b>Kandungan dan Nutrisi</b></p>
+        <p>Timun mengandung kalium dan vitamin K. Baik untuk menurunkan tekanan darah dan menjaga kesehatan tulang. 
+
+          Timun juga dapat digunakan untuk mendinginkan kulit yang sedang terkena iritasi hingga untuk menghilangkan mata panda bawah mata</p>
+        <p><b>Berat</b></p>
+        <p>500 gram (3-5 pcs) </p>
+        </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 7.900,00</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/pakcoy.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Pak Choy</p>
+      </div>
+      <div class="d-none deskripsi">
+        <p><b>Deskripsi</b></p>
+        <p>Ukuran beragam tergantung musim. Biasa digunakan di masakan asia. Daunnya besar dan halus. Rasanya cenderung manis khas daun. Cocok untuk cah pakcoy, tumisan, pakcoy saus tiram, dan berbagai olahan lainnya. Produk ini dapat digunakan sebagai menu MPASI Terdapat potensi kelebihan/kekurangan gramasi +-10% per pack</p>
+        <p><b>Kandungan dan Nutrisi</b></p>
+        <p>Karoten, zat besi, asam folat, kalium dan berbagai mineral baik lainnya. 
+
+          Sehingga dapat berfungsi sebagai anti inflamasi untuk mengurangi peradangan, menjaga kesehatan tulang, jantung menjaga tekanan darah dan baik untuk kulit.</p>
+        <p><b>Berat</b></p>
+        <p>500 gram</p>
+        </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 13.900</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/kentang.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Kentang Dieng Siomay</p>
+      </div>
+      <div class="d-none deskripsi">
+       <p><b>Deskripsi</b></p>
+       <p>Kentang Dieng Siomay (baby/rendang) memiliki ukuran paling kecil dibanding jenis Sedang (AB) dan Super (Jumbo).Cocok untuk olahan semur/rendang, roasted potato, dan lainnya
+
+        Kentang asal Dieng, Jawa Tengah ini memiliki ukuran yang lebih besar dari kentang biasa. Dagingnya berwarna kuning ke-emasan dan teksturnya lebih lembut. Kandungan airnya yang cukup rendah membuat kentang ini cocok diolah menjadi berbagai jenis masakan karena tidak gampang hancur Terdapat potensi kelebihan/kekurangan gramasi +-10% per pack Produk ini dapat digunakan sebagai menu MPASI</p>
+      <p><b>Berat</b></p>
+      <p>500 gram (15 - 20 pcs)</p>
+      </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 11.000,00</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/cis.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Kacang Kapri</p>
+      </div>
+      <div class="d-none deskripsi">
+        <p><b>Deskripsi</b></p>
+        <p>Kacang kapri atau snow pea dibungkus kulit berwarna hijau dan berbentuk pipih. Kacangnya sendiri memiliki warna hijau dengan ukuran yang relatif kecil. Umumnya, kacang kapri dikonsumsi setelah ditumis atau dipanggang. Terdapat potensi kelebihan/kekurangan gramasi +-10% per pack</p>
+        <p><b>Kandungan dan Nutrisi</b></p>
+        <p>Kacang Kapri mengandung karbohidrat, serat, protein, vitamin A, C, K, asam folat, magnesium, hingga potasium yang baik untuk tubuh. Mengonsumsi kacang kapri dapat melancarkan pencernaan dan baik sebagai menu diet, juga dapat mengontrol gula darah dalam tubuh.</p>
+        <p><b>Berat</b></p>
+        <p>180 - 220 gr/pack</p>
+      </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 21.900,00</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/wortel.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Wortel Baby</p>
+      </div>
+      <div class="d-none deskripsi">
+        <p><b>Deskripsi</b></p>
+        <p>Lebih kecil dari wortel biasa, teksturnya renyah, dan rasanya agak manis. Dapat dikonsumsi mentah. Cocok untuk masakan lauk atau camilan. Produk ini dapat digunakan sebagai menu MPASI. Terdapat potensi kelebihan/kekurangan gramasi +-10% per pack</p>
+        <p><b>Berat</b></p>
+        <p>500 gram (16-8 pcs)</p>
+      </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 11.200,00</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/lbu.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Labu Siam</p>
+      </div>
+      <div class="d-none deskripsi">
+        <p><b>Deskripsi</b></p>
+        <p>Labu siam memiliki kulit hijau muda dengan daging berwarna hijau terang. Teksturnya renyah dan lembut. Rasanya segar agak manis. Biasa dikonsumsi sebagai lalap atau tumisan. Dapat diolah menjadi campuran siomay, lontong sayur, dan berbagai kreasi lainnya. Terdapat potensi kelebihan/kekurangan gramasi +-10% per pack Produk ini dapat digunakan sebagai menu MPASI</p>
+        <p><b>Kandungan dan Nutrisi</b></p>
+        <p>Labu Siam memiliki kandungan vitamin C, vitamin B, potasium, magnesium, asam folat, dan kandungan penting lain yang cukup tinggi. 
+
+          Walau kaya akan nutrisi, labu siam memiliki kadar kalori, lemak, dan karbohidrat yang cenderung rendah, sehingga cocok disertai dalam berbagai diet.</p>
+          <p><b>Berat</b></p>
+          <p>500 gram</p>
+      </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 18.900,00</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/tomat.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Tomat </p>
+      </div>
+      <div class="d-none deskripsi">
+       <p><b>Deskripsi</b></p>
+      <p>Rasanya segar dan kaya kandungan air. Cocok untuk salad, jus, atau camilan. Produk ini dapat digunakan sebagai menu MPASI. Terdapat potensi kelebihan/kekurangan gramasi +-10% per pack</p>
+      <p><b>Kandungan dan Nutrisi</b></p>
+      <p>Tomat kaya akan vitamin A dan C yang baik untuk menjaga kesehatan mata, jantung, dan kulit. Tomat juga mengandung antioksidan sebagai penangkal radikal bebas yang dapat mencegah kanker, kandungan serat dan airnya juga baik untuk pencernaan.</p>
+      <p><b>Berat</b></p>
+      <p>500 gram (5-7 pcs)</p>
+    </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 13.500,00</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/sayur.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Sawi Putih</p>
+      </div>
+      <div class="d-none deskripsi">
+        <p><b>Deskripsi</b></p>
+        <p>Sawi Putih memiliki daun yang lebih lebar, cukup tebal dan kaku. Soal rasa, engga kalah enak sama sawi pada umumnya. Warna sawi umumnya putih dengan warna hijau pucat di bagian tepinya. Namun, ada pula varietas sawi putih dengan warna hijau muda yang lebih terang.
+
+          Pengiriman random sesuai varietas yang tersedia di petani. Terdapat potensi kelebihan/kekurangan gramasi +-10% </p>
+          <p><b>Kandungan dan Nutrisi</b></p>
+          <P>Sawi Putih mengandung Kalium, Magnesium, Beta Karoten,Kalsium, Potassium, Serat, Glutamin, Vitamin C, sumber Antioksidan dan lain-lain. Konsumsi sawi putih dapat membantu meningkatkan kesehatan mata, tulang, membantu menurunkan berat badan, dan menjaga kesehatan pencernaan.</P>
+          <p><b>Berat</b></p>
+          <p>1 kg</p>
+        </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 22.900,00</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/iko.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Selada keriting</p>
+      </div>
+      <div class="d-none deskripsi">
+        <p><b>Deskripsi</b></p>
+        <p>Selada keriting adalah salah satu jenis selada yang cukup populer. Teksturnya renyah dan gurih, serta memberikan sensasi segar saat dikonsumsi. Biasanya, selada ini digunakan sebagai isian sandwich, untuk lalapan, salad, dan lain-lain. Terdapat potensi kelebihan/kekurangan gramasi +-10% per pack</p>
+      <P><b>Kandungan dan Nutrisi</b></P>
+      <p>Selada dapat membantu menjaga kesehatan jantung, merawat kecantikan kulit, meningkatkan kekebalan tubuh, hingga mengontrol gula darah.</p>
+      <P><b>Berat</b></P>
+      <p>250 gram (1 pcs)</p>
+      </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 10.500,00</span>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-5">
+    <div class="card shadow">
+      <img src="images/ijo.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">Seledri</p>
+      </div>
+      <div class="d-none deskripsi">
+        <P><b>Deskripsi</b></P>
+        <p>Selada dapat membantu menjaga kesehatan jantung, merawat kecantikan kulit, meningkatkan kekebalan tubuh, hingga mengontrol gula darah.</p>
+      <P><b>Kandungan dan Nutrisi</b></P>
+      <p>Manfaat seledri yang mengandung antiokdisidan tinggi dapat mengurangi kerusakan sel tubuh akibat radikal bebas dan sebagai anti inflamasi yang mengurangi pembengkakan atau rasa sakit di sendi. Seledri juga dapat melindungi organ lambung dan hati</p>
+      <p><b>Berat</b></p>
+      <p>100 gram (1 pcs)</p>
+      </div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-secondary d-block btnDetail">detail</a>
+        <span class="ms-auto text-dark fw-bold d-block text-center harga">Rp. 6.500,00</span>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- modal -->
+    <button type="button" class="btn btn-primary d-none btnModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch demo modal</button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 modalTitle" id="exampleModalLabel"></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body row">
+            <div class="modalImage col-md-6 col-12"></div>
+            <div class="col-md-6 col-12">
+              <div class="modalDeskripsi"></div>
+              <div class="d-md-flex">
+                <a href="" target="blank" class="btn btn-sm btn-warning d-block btnBeli">Beli Produk Ini</a>
+                <span class="ms-auto text-danger fw-bold d-block text-center modalHarga"></span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="javascript/main.js"></script>
+ <!-- copyright -->
+ <div class="text-center p-4 border-top">&copy;Kedai Sayur</div>
+  </div>
+</body>
+</body>
+</html>
